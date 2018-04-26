@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">bmi</string>
+    <string name="main_textview_height">Enter your height in m</string>
+    <string name="main_edittext_height">meters</string>
+    <string name="main_textview_weight">Enter your body weight in kg</string>
+    <string name="main_edittext_weight">kilograms</string>
+    <string name="main_button_calculate">Calculate</string>
+    <string name="main_imageview_display">test</string>
+    <string name="main_textview_result_number">0.0</string>
+    <string name="main_textview_result_text">obese</string>
+    <string name="main_textview_result_description">bla bla some text for obese</string>
+    <string name="resultTextUnderweight">Under weight</string>
+    <string name="resultTextNormal">Normal weight</string>
+    <string name="resultTextOverweight">Over weight</string>
+    <string name="resultTextObese1">Obese</string>
+    <string name="resultTextObese2">Over obese</string>
+    <string name="resultTextObese3">Super obese</string>
+    <string name="resultDescriptionUnderWeight">A person may be underweight due to genetics, metabolism, drug use, lack of food (frequently due to poverty), eating disorder, or illness (both physical and mental).\\n\" +                     \"\\n\" +                     \"Being underweight is associated with certain medical conditions, including diabetes, hyperthyroidism, cancer, or tuberculosis. People with gastrointestinal or liver problems may be unable to absorb nutrients adequately. People with certain eating disorders can also be underweight due to lack of nutrients/over exercise.</string>
+    <string name="resultDescriptionNormal">The term \"metabolically obese normal weight\" (MONW) refers to people with normal weight and BMI, but who display some metabolic characteristics that may increase the risk of developing metabolic syndrome, in the same way as obesity. MONW subjects have excess visceral fat, and are predisposed to insulin resistance, hypertension and cardiovascular disease. These people show benefits from energy restriction and weight loss, for example a 4- to 12-week period of diet and exercise.</string>
+    <string name="resultDescriptionOverweight">The degree to which a person is overweight is generally described by the body mass index (BMI). Overweight is defined as a BMI of 25 or more, thus it includes pre-obesity defined as a BMI between 25 and 30 and obesity as defined by a BMI of 30 or more. Pre-obese and overweight however are often used interchangeably, thus giving overweight a common definition of a BMI of between 25–30. There are, however, several other common ways to measure the amount of adiposity or fat present in an individual\'s body.</string>
+    <string name="resultDescriptionObese1">Obesity is a medical condition in which excess body fat has accumulated to the extent that it may have an adverse effect on health. It is defined by body mass index (BMI) and further evaluated in terms of fat distribution via the waist–hip ratio and total cardiovascular risk factors. BMI is closely related to both percentage body fat and total body fat. In children, a healthy weight varies with age and sex. Obesity in children and adolescents is defined not as an absolute number but in relation to a historical normal group, such that obesity is a BMI greater than the 95th percentile. The reference data on which these percentiles were based date from 1963 to 1994, and thus have not been affected by the recent increases in weight. BMI is defined as the subject\'s weight divided by the square of their height and is calculated as follows.</string>
+    <string name="resultDescriptionObese2">Almost 90% of people living with type 2 diabetes are overweight or have obesity. People who are overweight or have obesity have added pressure on their body\'s ability to use insulin to properly control blood sugar levels, and are therefore more likely to develop diabetes.</string>
+    <string name="resultDescriptionObese3">not so super… visit a doctor</string>
 </resources>
