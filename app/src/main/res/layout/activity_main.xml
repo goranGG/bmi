@@ -1,18 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/main_textview_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your height in m" />
+
+    <EditText
+        android:id="@+id/main_edittext_height"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="meters"
+        android:inputType="numberDecimal"/>
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/main_textview_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your body weight in kg" />
+
+    <EditText
+        android:id="@+id/main_edittext_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="kilograms"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculate" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_rowSpan="3"
+            android:id="@+id/main_imageview_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="test" />
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:id="@+id/main_textview_result_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11" />
+
+        <TextView
+            android:layout_rowWeight="2"
+            android:layout_columnWeight="2"
+            android:id="@+id/main_textview_result_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="obese" />
+
+        <TextView
+            android:layout_rowWeight="3"
+            android:layout_columnWeight="2"
+            android:id="@+id/main_textview_result_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bla bla some text for obese" />
+
+    </GridLayout>
+
+</LinearLayout>
